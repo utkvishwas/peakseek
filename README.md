@@ -27,10 +27,10 @@ price adjustment** — all inline on Pi's footer usage line.
 pi install npm:peakseek
 
 # pinned
-pi install npm:peakseek@1.0.0
+pi install npm:peakseek@1.0.1
 
 # from git
-pi install git:github.com/utkvishwas/peakseek@v1.0.0
+pi install git:github.com/utkvishwas/peakseek@v1.0.1
 
 # from a local checkout
 pi install ./peakseek
