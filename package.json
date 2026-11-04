@@ -1,0 +1,57 @@
+{
+  "name": "peakseek",
+  "version": "1.0.0",
+  "description": "DeepSeek balance, peak/off-peak indicator and off-peak pricing in the Pi footer",
+  "author": "Utkarsh Vishwas <utkarshvishwas@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkvishwas/peakseek.git"
+  },
+  "homepage": "https://github.com/utkvishwas/peakseek#readme",
+  "bugs": {
+    "url": "https://github.com/utkvishwas/peakseek/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "peakseek",
+    "deepseek",
+    "footer",
+    "balance"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "files": [
+    "extensions/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/peakseek.ts"
+    ],
+    "changelogPath": "CHANGELOG.md"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "@earendil-works/pi-tui": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.5.0",
+    "@earendil-works/pi-tui": "^1.5.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
