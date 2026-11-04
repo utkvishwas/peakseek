@@ -7,6 +7,7 @@ price adjustment** — all inline on Pi's footer usage line.
 ~/code/project (main)
 ↑12.4k ↓3.1k R88k CH87.2% $0.004 bal $1.62 ● off-peak 5.0%/1.0M (auto)  deepseek-flash • high
 ```
+<img width="1468" height="720" alt="image" src="https://github.com/user-attachments/assets/a333df4a-9bad-4296-be7a-659cee6a7406" />
 
 - **`bal $1.62`** — remaining DeepSeek balance, on the same line as tokens/cost.
 - **$\color{#22c55e}\bullet$ `off-peak` (green)** / **$\color{#f97316}\bullet$ `peak` (orange)** — the current DeepSeek pricing
