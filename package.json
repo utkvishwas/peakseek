@@ -1,6 +1,6 @@
 {
   "name": "peakseek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DeepSeek balance, peak/off-peak indicator and off-peak pricing in the Pi footer",
   "author": "Utkarsh Vishwas <utkarshvishwas@gmail.com>",
   "license": "MIT",
@@ -34,7 +34,8 @@
     "extensions": [
       "./extensions/peakseek.ts"
     ],
-    "changelogPath": "CHANGELOG.md"
+    "changelogPath": "CHANGELOG.md",
+    "image": "https://raw.githubusercontent.com/utkvishwas/peakseek/main/assets/screenshot.jpg"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",

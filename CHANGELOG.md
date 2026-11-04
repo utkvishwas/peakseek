@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1] - 2026-11-04
+
+- Add a screenshot section to the README and a gallery preview image
+  (`pi.image`) for <https://pi.dev/packages>.
+- README: replace the KaTeX `\color` dots with emoji so the peak/off-peak
+  bullets render on npm as well as GitHub.
+
 ## [1.0.0] - 2026-11-04
 
 - Initial release.

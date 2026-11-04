@@ -7,11 +7,14 @@ price adjustment** — all inline on Pi's footer usage line.
 ~/code/project (main)
 ↑12.4k ↓3.1k R88k CH87.2% $0.004 bal $1.62 ● off-peak 5.0%/1.0M (auto)  deepseek-flash • high
 ```
-<img width="1468" height="720" alt="image" src="https://github.com/user-attachments/assets/a333df4a-9bad-4296-be7a-659cee6a7406" />
+
+## Screenshot
+
+![peakseek in the Pi footer: balance, off-peak indicator and the discounted cost](https://raw.githubusercontent.com/utkvishwas/peakseek/main/assets/screenshot.jpg)
 
 - **`bal $1.62`** — remaining DeepSeek balance, on the same line as tokens/cost.
-- **$\color{#22c55e}\bullet$ `off-peak` (green)** / **$\color{#f97316}\bullet$ `peak` (orange)** — the current DeepSeek pricing
-  window, updated automatically at every boundary. No interaction needed.
+- **🟢 `off-peak`** / **🟠 `peak`** — the current DeepSeek pricing window, updated
+  automatically at every boundary. No interaction needed.
 - **Cost is re-priced** with the off-peak discount when a response finishes
   off-peak, so the footer, session totals and exported sessions show what you
   were actually charged.
